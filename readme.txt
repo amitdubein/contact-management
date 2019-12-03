@@ -44,7 +44,7 @@
 	);
 
 	INSERT INTO CONTACT_DETAIL (FIRST_NAME, LAST_NAME, EMAIL_ID, PHONE_NUMBER, USER_STATUS) VALUES
-	  ('Amit', 'Dube', 'amitdubeinjava@gmail.com', 9730017749, 'Active'),
+	  ('Amit', 'mukta', 'ad@gmail.com', 2565859875, 'Active'),
 	  ('Ramesh', 'Kale', 'rkale@gmail.com',57859658885, 'inactive'),
 	  ('Sam', 'Fransis', 'samf2019@hotmail.com',8788948790,'Active'),
 	  ('Ana', 'Mishra', 'amis@hotmail.com',8788948790,'inactive');
@@ -65,22 +65,22 @@
 				"firstName": "kumar",
 				"lastName": "munde",
 				"email": "kmunde@gmail.com",
-				"phone": 8596458758,
+				"phone": 1245896589,
 				"status": "Active"
 			}
 			{
 				"firstName": "Anil",
-				"lastName": "Dube",
-				"email": "adube@gmail.com",
-				"phone": 9865745858,
+				"lastName": "katra",
+				"email": "ak@gmail.com",
+				"phone": 2356489658,
 				"status": "Active"
 			}
 			
 			{
 				"firstName": "Amit",
-				"lastName": "Dube",
-				"email": "amitdubeinjava@gmail.com",
-				"phone": 9730017749,
+				"lastName": "manak",
+				"email": "am@gmail.com",
+				"phone": 1256985686,
 				"status": "Active"
 			}
 			
@@ -88,14 +88,14 @@
 				"firstName": "Sam",
 				"lastName": "Fransis",
 				"email": "sf@gmail.com",
-				"phone": 5698562545,
+				"phone": 1524785965,
 				"status": "Inactive"
 			}
 			{
 				"firstName": "Ram",
 				"lastName": "Kale",
 				"email": "rkale@gmail.com",
-				"phone": 8485965785,
+				"phone": 2456589658,
 				"status": "Inactive"
 			}
 		As we have already entered data through POST API, so we can get all the deta by GET API, follow the steps given in (Swagger-Screen 5)
@@ -104,9 +104,9 @@
 			{
 			  "id": 3,
 			  "firstName": "kumar",
-			  "lastName": "munde",
-			  "email": "kmunde@gmail.com",
-			  "phone": 5698569856,
+			  "lastName": "munda",
+			  "email": "km@gmail.com",
+			  "phone": 1253659858,
 			  "status": "Active"
 			}
 		If we want to update perticular data we can do it by using DELETE API by valid ID, follow the steps given in(Swagger-Screen 8)
